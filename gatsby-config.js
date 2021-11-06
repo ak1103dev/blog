@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Exponential Experience`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `ak1103dev`,
+      summary: 'who is learner, developer, blogger, and investor.'
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `blog`,
+    siteUrl: `https://exp.ak1103.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ak1103dev`,
     },
   },
   plugins: [

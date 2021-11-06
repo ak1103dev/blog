@@ -1,231 +1,30 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: สร้าง Blog ง่ายๆ ด้วย Gatsby
+date: "2021-11-06T22:12:03.284Z"
+description: ""
+category: "Technology"
 ---
 
-This is my first post on my new fake blog! How exciting!
+หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น
 
-I'm sure I'll write a lot more interesting things in the future.
+แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host เพิ่มเท่านั้นแหละ
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+เลยว่าจะทำเป็น static html เอง แล้วเอาขึ้น github pages เพราะมันฟรี
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+ต่อมาก็มาเลือกว่า จะใช้ อะไรดีในการทำ static html ก็ไปหาดูใน google
 
-![Chinese Salty Egg](./salty_egg.jpg)
+search ไปว่า react static page แล้วก็เข้าไปดู link https://blog.bitsrc.io/7-top-react-static-site-generators-in-2020-5850ae275821
 
-You can also write code blocks here!
+ดูๆ แล้ว ก็น่าสนใจทุกตัวนะ แต่ตัว top ก็คือ [Gatsby](https://www.gatsbyjs.com/) เลยเลือกตัวนี้ (จริงๆ ไม่เกี่ยวหรอก ผมลองมันมาหลายรอบแล้ว เลยว่ารอบนี้เอามาใช้ให้ได้ละกัน)
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+ต่อมา ถ้าจะให้ start ที่ minimal starter ของ gatsby น่าจะลำบากลำบนแน่เลย
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+Gatsby มี Starter Library https://www.gatsbyjs.com/starters/ ให้ใช้อยู่นะ ผมก็ลองเข้าไปเลือกๆ ดูใน หมวด blog ก็ได้อันนี้ https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/ มาลองขึ้นดู
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+แล้วก็เปลี่ยนพวก config ต่างๆ เช่น title description ต่างๆ
 
-This is a paragraph.
+ส่วนเวลาเขียน blog ก็จะใช้ markdown ในการเขียน ก็ไม่ได้ยากนัก แต่จำไม่ได้ ก็จะมาเปิดดูใน [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) อีกทีหนึ่ง
 
-    This is a paragraph.
+เดี๋ยวค่อยๆ improve ตัว blog ไปเรื่อยๆ ละกัน ตอนนี้เอาแบบ minimal ไปก่อน
 
-# Header 1
-
-## Header 2
-
-    Header 1
-    ========
-
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+> ความพยายามอยู่ไหน ความพยายามก็อยู่ที่นั่น
