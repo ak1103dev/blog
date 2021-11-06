@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Exponential Experience"}},"allMarkdownRemark":{"nodes":[{"excerpt":"หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"November 06, 2021","title":"สร้าง Blog ง่ายๆ ด้วย Gatsby","description":""}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Exponential Experience"}},"allMarkdownRemark":{"nodes":[{"excerpt":"หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…","fields":{"slug":"/new-blog/"},"frontmatter":{"date":"November 06, 2021","title":"สร้าง Blog ง่ายๆ ด้วย Gatsby","description":""}}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}
