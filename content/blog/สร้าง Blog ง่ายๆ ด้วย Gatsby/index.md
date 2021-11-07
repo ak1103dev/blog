@@ -3,6 +3,7 @@ title: สร้าง Blog ง่ายๆ ด้วย Gatsby
 date: "2021-11-06T22:12:03.284Z"
 description: ""
 category: "Technology"
+tags: ["React.js", "Gatsby.js"]
 ---
 
 หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น
