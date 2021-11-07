@@ -60,6 +60,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-1801532606391207`
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
