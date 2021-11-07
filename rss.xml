@@ -1,4 +1,313 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://exp.ak1103.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 06 Nov 2021 06:57:39 GMT</lastBuildDate><item><title><![CDATA[สร้าง Blog ง่ายๆ ด้วย Gatsby]]></title><description><![CDATA[หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…]]></description><link>https://exp.ak1103.dev/สร้าง Blog ง่ายๆ ด้วย Gatsby/</link><guid isPermaLink="false">https://exp.ak1103.dev/สร้าง Blog ง่ายๆ ด้วย Gatsby/</guid><pubDate>Sat, 06 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://exp.ak1103.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Nov 2021 02:45:25 GMT</lastBuildDate><item><title><![CDATA[Deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions]]></title><description><![CDATA[บทความที่แล้ว ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous…]]></description><link>https://exp.ak1103.dev/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</link><guid isPermaLink="false">https://exp.ak1103.dev/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</guid><pubDate>Sun, 07 Nov 2021 12:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://exp.ak1103.dev/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/&quot;&gt;บทความที่แล้ว&lt;/a&gt; ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ&lt;/p&gt;
+&lt;p&gt;สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous Intregation) ฟรีของ GitHub&lt;/p&gt;
+&lt;p&gt;วิธีก็คือ เราจะสร้าง ไฟล์เอง หรือ จะเลือก template ใน tab Actions ใน repository ของ project ก็ได้&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ed0636908bef06ce2047844cd921c1d6/fd561/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.835443037974684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABHElEQVQoz5WRbW/DIAyE+///Z9ssrfKCMWAM3ITTNM22L0NyfJFOj31wSZIRk0CyYteRGSklhK6TIMRNW7cSZC1/1gUAmBn3YcA0TRiGAeP4wPV6M+h/jwFDCPgan3hMDsNzxbwSlnkBc0Dsm4ZoPcZ09JdurZ3KgCICRx6OGOSDgZIKtOrH7LZ9T4Dt/+3YgZ4Zt9sd3nuLT0TgFKBFrbwQYkhIIr+hfaGwohY9ItdaMS8r5sVBcj7dSQeysMUexgdWR+bZgeZJhFrKAcyqBiTyUNXTFvvpQEeE/GMgWnu3d2TVAg7bA3S9A3ueXAq0qYFEsg38jFxbQ5aEWj8id1N/6VoPk2kApQ9ZFvgQ4Bxhu6KX5wWNWlHqtuk3h9rCl4+JYP4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Actions&quot;
+        title=&quot;Actions&quot;
+        src=&quot;/static/ed0636908bef06ce2047844cd921c1d6/f058b/image1.png&quot;
+        srcset=&quot;/static/ed0636908bef06ce2047844cd921c1d6/c26ae/image1.png 158w,
+/static/ed0636908bef06ce2047844cd921c1d6/6bdcf/image1.png 315w,
+/static/ed0636908bef06ce2047844cd921c1d6/f058b/image1.png 630w,
+/static/ed0636908bef06ce2047844cd921c1d6/40601/image1.png 945w,
+/static/ed0636908bef06ce2047844cd921c1d6/78612/image1.png 1260w,
+/static/ed0636908bef06ce2047844cd921c1d6/fd561/image1.png 2866w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Set GitHub Actions&lt;/h2&gt;
+&lt;p&gt;เดี๋ยว ผมพาทำแบบสร้างไฟล์เองละกัน&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;เริ่มจาก สร้าง directory &lt;code class=&quot;language-text&quot;&gt;.github/workflows&lt;/code&gt; ใน project แล้วสร้าง file &lt;code class=&quot;language-text&quot;&gt;main.yml&lt;/code&gt; (หรือ ชื่ออื่นก็ได้) ใน directory &lt;code class=&quot;language-text&quot;&gt;.github/workflows&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;จากนั้นเดี๋ยวผมจะค่อยเพิ่มทีละส่วน&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;ส่วนแรกคือ ตั้งชื่อ workflow ก่อน&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .github/workflows/main.yml&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Node.js CI&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;จากนั้น ก็เพิ่มส่วนที่จะให้ทำงานเมื่อไร โดยผมจะให้มันทำงานเมื่อ push code ไป branch main หรือ pull request ไป branch main&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .github/workflows/main.yml&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Node.js CI
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;ส่วนต่อมา จะกำหนด jobs ในที่นี้ ผมใส่ job เดียว ตั้งชื่อว่า build
+รันบน ubuntu เวอร์ชั่นล่าสุด&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .github/workflows/main.yml&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Node.js CI
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;กำหนด node-version เป็น 16.x&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .github/workflows/main.yml&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Node.js CI
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+
+    &lt;span class=&quot;token key atrule&quot;&gt;strategy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;16.x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# See supported Node.js release schedule at https://nodejs.org/en/about/releases/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;กำหนด steps การทำงาน ก็คือ&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;setup node version&lt;/li&gt;
+&lt;li&gt;install package&lt;/li&gt;
+&lt;li&gt;build app (ที่เห็นเป็นคำสั่งของ gatsby นะ ถ้าเป็น framework อื่นก็จะเป็นคำสั่งอื่น)&lt;/li&gt;
+&lt;li&gt;deploy to github pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yml&quot;&gt;&lt;pre class=&quot;language-yml&quot;&gt;&lt;code class=&quot;language-yml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# .github/workflows/main.yml&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Node.js CI
+
+&lt;span class=&quot;token key atrule&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;pull_request&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;branches&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;main&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;jobs&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;runs-on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ubuntu&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;latest
+
+    &lt;span class=&quot;token key atrule&quot;&gt;strategy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token key atrule&quot;&gt;matrix&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;16.x&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;token comment&quot;&gt;# See supported Node.js release schedule at https://nodejs.org/en/about/releases/&lt;/span&gt;
+
+    &lt;span class=&quot;token key atrule&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/checkout@v2
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Use Node.js $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; matrix.node&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;version &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; actions/setup&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;node@v2
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;node-version&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; matrix.node&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;version &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;cache&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;npm&quot;&lt;/span&gt;
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Install Packages
+        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; yarn
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Build app
+        &lt;span class=&quot;token key atrule&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ./node_modules/.bin/gatsby build &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;prefix&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;paths
+
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Deploy to gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages
+        &lt;span class=&quot;token key atrule&quot;&gt;uses&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; peaceiris/actions&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;gh&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;pages@v3
+        &lt;span class=&quot;token key atrule&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;deploy_key&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; $&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; secrets.ACTIONS_DEPLOY_KEY &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+          &lt;span class=&quot;token key atrule&quot;&gt;publish_dir&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; ./public&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;พอสร้างไฟล์นี้เสร็จแล้ว ก็ push code ขึ้น branch main มันก็จะรันตาม steps ที่เราวางไว้&lt;/p&gt;
+&lt;p&gt;แต่น่าจะรันไม่ผ่าน เพราะที่ step deploy to github pages เรายังไม่ได้กำหนด secrets.ACTIONS_DEPLOY_KEY เลย&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Set SSH Private Key deploy_key&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;generate SHH key ตาม link นี้ &lt;a href=&quot;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot;&gt;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&lt;/a&gt;
+เราจะได้ 2 ไฟล์ คือ public key (ไฟล์ .pub) กับ private key (ไฟล์ที่ไม่มีสกุล)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ไปที่ setting ของ repository&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f4bff5fd9402fe5dd14c3216fa3a8489/3c1e5/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.835443037974684%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA/klEQVQoz4WRjW7DIAyE+/6POalrlzZAMH+GwE14SZpm62rpdAhLH4d9SpwRYsLqXTExJnJwPshZ7hf3RAg+IJcZnAu4+04nAIghYLKEea4ocxUflYIl6m20ht/VL1tDOzQFaMnh43yBIQ8fGSFlKG0w3Ef4Jf36YK2LFthRAiQfoAwJyIX+5QznHJTWSCkhl4Kc8+bMjMgFZW5L2APQWML5MghwTfh1U/i83mAmC60NtDFQSiOEuEH2/vRlFyLuehKY68DIsJ4x2vizsPRQKeUp0REqwMk6XIfxkTAy/qu3wJ5wm2Fkgdb699D3kJfAvuVh1CCfBCbAFzN6B/wGbEDCboAhPxwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setting&quot;
+        title=&quot;setting&quot;
+        src=&quot;/static/f4bff5fd9402fe5dd14c3216fa3a8489/f058b/image2.png&quot;
+        srcset=&quot;/static/f4bff5fd9402fe5dd14c3216fa3a8489/c26ae/image2.png 158w,
+/static/f4bff5fd9402fe5dd14c3216fa3a8489/6bdcf/image2.png 315w,
+/static/f4bff5fd9402fe5dd14c3216fa3a8489/f058b/image2.png 630w,
+/static/f4bff5fd9402fe5dd14c3216fa3a8489/40601/image2.png 945w,
+/static/f4bff5fd9402fe5dd14c3216fa3a8489/78612/image2.png 1260w,
+/static/f4bff5fd9402fe5dd14c3216fa3a8489/3c1e5/image2.png 2854w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ไปที่เมนู Deploy keys เราจะ add deploy key ด้วย public key และเลือก Allow write access ไว้ด้วย&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f613a3008b45b8fae75372d73c8ed0c2/b8765/image3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.202531645569614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABGklEQVQoz5WRUW+DMAyE+f9/bU9760s3qdpUjQGBJI4dJ+GmpKVSx6pqlk6AcD5fzp2mDAoMRwGBIzwxAgtmLxgWwTRbLNZBYgRLRCBC8B4pF6SUd+oAIGrCYBYQRwRRsCgsKYxPsM5DmLGrdcVf1YB18unzjNFYkCiIFUQE8g6q2s7mUppK1bpifaAGrNcZprk53FzO1qMfDPrR4Hs07X/7HiaYxWFx1HqsD23IxfQGlIiP8xdckBuUo8Jf358p/wZqdThOLcu6pJgScipIsdzgLI+1A7YrjzOCXCaqFhz6I17eX0E+XDcsEJH2rNtcr4BNd8C6lJpPzc4HQZSMoznhML3dGp/V1tPlnBGjttBrwNWhZ7lr/I9+AIjBv8jn7/R+AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setting&quot;
+        title=&quot;setting&quot;
+        src=&quot;/static/f613a3008b45b8fae75372d73c8ed0c2/f058b/image3.png&quot;
+        srcset=&quot;/static/f613a3008b45b8fae75372d73c8ed0c2/c26ae/image3.png 158w,
+/static/f613a3008b45b8fae75372d73c8ed0c2/6bdcf/image3.png 315w,
+/static/f613a3008b45b8fae75372d73c8ed0c2/f058b/image3.png 630w,
+/static/f613a3008b45b8fae75372d73c8ed0c2/40601/image3.png 945w,
+/static/f613a3008b45b8fae75372d73c8ed0c2/78612/image3.png 1260w,
+/static/f613a3008b45b8fae75372d73c8ed0c2/b8765/image3.png 2868w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ไปที่เมนู Secrets เราจะ New repository secret โดยใส่ private key&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e0eb30e2c2bf80004c5b6050cb09ce1a/fd561/image4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.202531645569614%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABAElEQVQoz42S627DIAxG+/4PuR9Vp65tEhIC2IbAN+GmLMmkrZaOnAscGexTTAk+EJwnBOKWJ8/oLcPYgGEwcM5DJIKYQSxIS0ZMC9KBEwCwCHozwZMgcFRGJ3jYiGFmjNOs35YC5AKNUkpjGyp0PuB8ucKsG6u4MxadmWG9gBIQpMBRBse94ChXoSdGZyaVORIV1mOxJHBMYIlP9Pn1nkBrzmuVP8JA+Lze4cJTpkJJTf4fOee9sDbh9hh2iyQuYE7tTv/il9AHxr03KqpVBoq42C98jGddnHPZ5CO5NaYJmQjWWixL1nGohETwMeDdeElVWOerVrb+2Y3CtoPv8A0oJMH1ZnYYKAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setting&quot;
+        title=&quot;setting&quot;
+        src=&quot;/static/e0eb30e2c2bf80004c5b6050cb09ce1a/f058b/image4.png&quot;
+        srcset=&quot;/static/e0eb30e2c2bf80004c5b6050cb09ce1a/c26ae/image4.png 158w,
+/static/e0eb30e2c2bf80004c5b6050cb09ce1a/6bdcf/image4.png 315w,
+/static/e0eb30e2c2bf80004c5b6050cb09ce1a/f058b/image4.png 630w,
+/static/e0eb30e2c2bf80004c5b6050cb09ce1a/40601/image4.png 945w,
+/static/e0eb30e2c2bf80004c5b6050cb09ce1a/78612/image4.png 1260w,
+/static/e0eb30e2c2bf80004c5b6050cb09ce1a/fd561/image4.png 2866w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;เป็นอันเรียบร้อย ไปกดให้ GitHub Actions รันอีกรอบหนึ่งน่าจะสำเร็จแล้ว&lt;/p&gt;
+&lt;p&gt;เราก็มาดู link github pages ได้ใน Settings -&gt; Pages&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/047a8668ebc3b15e40e65cb20f14e812/2c960/image5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZElEQVQoz2WSCY7bMAxF5/5HzADFJGkSJ15krdRi+xVSOi48lfBBAaIePkl9SMq4IHiJOC8Y5/eorcPXuxD3aI3FWUsuCymX//QBIDHRjwqJuSnmwjg7zrcnWmtSyohEYnxLqiSSUuLnasAgkd+PF9Ns8JIIkhnKzKc782m+OLkHJ//kK3dcl45reXApHZf84Fo68lYabNu2f8B+nAkxv4Exo6xGBY2JlllMUz2b5DA5ImtCtrfWbTsCa39uj1eDfQO1ttzvT5TSjKPCWk8IkZILuRrajqVuf6F7D5/DhJPUVIGzNvT9gA8B6z1WG7zziAixKmVCXhuo7e2Hw3vXHxyKBOZZtYHUx+IDOWWWdaWU6rKwruvu7uAwxtQG8t3DClBz5HzpefY9/TDRjxOvYaIb5vatalU1ryzLDtsdSgiMk2oJOS9sLNxuK6dfwvlluL80w6ja16rDG01EucxoEzakg9M/Hw26VCyDIrgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;setting&quot;
+        title=&quot;setting&quot;
+        src=&quot;/static/047a8668ebc3b15e40e65cb20f14e812/f058b/image5.png&quot;
+        srcset=&quot;/static/047a8668ebc3b15e40e65cb20f14e812/c26ae/image5.png 158w,
+/static/047a8668ebc3b15e40e65cb20f14e812/6bdcf/image5.png 315w,
+/static/047a8668ebc3b15e40e65cb20f14e812/f058b/image5.png 630w,
+/static/047a8668ebc3b15e40e65cb20f14e812/40601/image5.png 945w,
+/static/047a8668ebc3b15e40e65cb20f14e812/78612/image5.png 1260w,
+/static/047a8668ebc3b15e40e65cb20f14e812/2c960/image5.png 2870w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;อะไรทำให้ Auto ได้ ทำเถอะ ชีวิตจะได้สบายขึ้น&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/checkout&quot;&gt;https://github.com/marketplace/actions/checkout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/setup-node-js-environment&quot;&gt;https://github.com/marketplace/actions/setup-node-js-environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/github-pages-action&quot;&gt;https://github.com/marketplace/actions/github-pages-action&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[สร้าง Blog ง่ายๆ ด้วย Gatsby]]></title><description><![CDATA[หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…]]></description><link>https://exp.ak1103.dev/สร้าง Blog ง่ายๆ ด้วย Gatsby/</link><guid isPermaLink="false">https://exp.ak1103.dev/สร้าง Blog ง่ายๆ ด้วย Gatsby/</guid><pubDate>Sat, 06 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น&lt;/p&gt;
 &lt;p&gt;แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host เพิ่มเท่านั้นแหละ&lt;/p&gt;
 &lt;p&gt;เลยว่าจะทำเป็น static html เอง แล้วเอาขึ้น github pages เพราะมันฟรี&lt;/p&gt;
 &lt;p&gt;ต่อมาก็มาเลือกว่า จะใช้ อะไรดีในการทำ static html ก็ไปหาดูใน google&lt;/p&gt;
