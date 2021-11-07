@@ -1,11 +1,16 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { paginate } = require('gatsby-awesome-pagination')
+const _ = require('lodash')
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+
+exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
   const { createPage } = actions
+  const basePath = themeOptions.basePath || `/`
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const templateTags = path.resolve('./src/templates/tag.js')
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -19,6 +24,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id
             fields {
               slug
+            }
+            frontmatter {
+              tags
+              category
             }
           }
         }
@@ -35,6 +44,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   const posts = result.data.allMarkdownRemark.nodes
+  const tags = posts.reduce((list, post) => {
+    return [...list, ...(post?.frontmatter?.tags || [])]
+  }, [])
+  const categories = posts.map(post => post?.frontmatter?.category)
 
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
@@ -52,6 +65,29 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           id: post.id,
           previousPostId,
           nextPostId,
+        },
+      })
+    })
+  }
+
+  if (tags.length > 0) {
+    tags.forEach((tag, index) => {
+      const postsWithTag = posts.filter(post =>
+        (post?.frontmatter?.tags || []).includes(tag)
+      )
+      const tagPagination = basePath === '/'
+        ? `/tag/${_.kebabCase(tag)}`
+        : `/${basePath}/tag/${_.kebabCase(tag)}`
+      paginate({
+        createPage,
+        items: postsWithTag,
+        itemsPerPage: 10,
+        pathPrefix: tagPagination,
+        component: templateTags,
+        context: {
+          tag,
+          basePath: basePath === '/' ? '' : basePath,
+          paginationPath: tagPagination,
         },
       })
     })
