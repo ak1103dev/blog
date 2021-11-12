@@ -6,7 +6,7 @@ module.exports = {
       summary: 'who is learner, developer, blogger, and investor.'
     },
     description: `blog`,
-    siteUrl: `https://exp.ak1103.dev`,
+    siteUrl: `https://ak1103dev.com`,
     social: {
       twitter: `ak1103dev`,
     },
@@ -55,7 +55,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          "G-SPGD528PWH", // Google Analytics / GA
+          "G-NNZSDM77QC", // Google Analytics / GA
         ],
       },
     },
