@@ -6,7 +6,7 @@ category: "Technology"
 tags: ["GitHub Pages", "GitHub Actions"]
 ---
 
-[บทความที่แล้ว](https://exp.ak1103.dev/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/) ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ
+[บทความที่แล้ว](https://ak1103dev.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/) ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ
 
 สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous Intregation) ฟรีของ GitHub
 
