@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Nov 2021 18:06:19 GMT</lastBuildDate><item><title><![CDATA[Deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions]]></title><description><![CDATA[บทความที่แล้ว ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous…]]></description><link>https://ak1103dev.com/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</link><guid isPermaLink="false">https://ak1103dev.com/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</guid><pubDate>Sun, 07 Nov 2021 12:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://ak1103dev.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/&quot;&gt;บทความที่แล้ว&lt;/a&gt; ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Nov 2021 13:16:38 GMT</lastBuildDate><item><title><![CDATA[ความหมายของชีวิต]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/ความหมายของชีวิต/</link><guid isPermaLink="false">https://ak1103dev.com/ความหมายของชีวิต/</guid><pubDate>Sun, 14 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ผมว่า หลายๆ คน คงค้นหาความหมายของชีวิต หรือการมีชีวิตอยู่ ผมก็เป็นคนหนึ่งที่เคยตั้งคำถามแบบนี้เหมือนกัน แต่คำตอบยังไม่โดนใจเท่าไร ผมคิดว่าคำถามพวกนี้ จริงๆ ก็มีคนหาคำตอบมาบ้างแล้ว จึงเกิดลัทธิ และศาสนาต่างๆ แต่ที่เห็นสิ่งหนึ่งที่เป็นจุดร่วมกันของ หลายๆ แนวคิด นั่นคือหลักสมดุล&lt;/p&gt;
+&lt;p&gt;ในทางศาสนาพุทธ มีสิ่งหนึ่งที่เรียกว่า มัชฌิมาปฏิปทา หรือ ทางสายกลาง หมายถึง การไม่ยึดถือสุดทางเกินไป
+หรือในลัทธิเต๋า ก็มีหยินหยางที่แสดงความสมดุล
+หรือในทางวิทยาศาสตร์ก็มีเรื่องสมดุลต่างๆ เช่น สมดุลของแรง สมดุลทางไฟฟ้า สมดุลการหมุน&lt;/p&gt;
+&lt;p&gt;แต่ความตลกร้าย คือ ในความเป็นจริงส่ิงต่างๆ ไม่ได้อยู่แบบสมดุล โดยสมบูรณ์แบบ ทำไมผมถึงกล่าวเช่นนั้น ?&lt;/p&gt;
+&lt;p&gt;อย่างเช่น เมื่ออากาศร้อน แดดออกแรง ทำให้นำ้ระเหยกลายเป็นไอ สะสมจนเป็นก้อนเมฆ พอก้อนเมฆควบแน่นจนอิ่มตัว ก็ตกลงมากลายเป็นฝน ผมว่า เรื่องนี้ คนส่วนใหญ่น่าจะเคยเห็น หรือได้ยินกัน นั่นก็คือ วัฏจักรของนำ้นั่นเอง&lt;/p&gt;
+&lt;p&gt;อันนี้เป็นตัวอย่างหนึ่งในการปรับสมดุลตามธรรมชาติ เพื่อให้นำ้ที่อยู่ในสถานะต่างๆ เกิดการหมุนเวียน&lt;/p&gt;
+&lt;p&gt;ตัวอย่างต่อมา เอาใกล้ๆตัวหน่อย สัตว์เมื่อกินอาหารเข้าไป ในเวลาต่อมาก็ต้องมีการขับถ่าย สิ่งนี้ก็เป็นการปรับสมดุลเช่นกัน (มีเข้า ย่อมมีออก)&lt;/p&gt;
+&lt;p&gt;อีกตัวอย่างที่น่าจะเข้า ประเด็นเลย คือ เรื่องห่วงโซ่อาหาร ทำไมเราจึงไม่ทำลายล้างเผ่าพันธ์ุสัตว์บางชนิดที่เรารู้สึกรำคาญมันมากๆ เช่น ยุง หรือสัตว์ร้ายต่างๆ เพราะว่ามันเป็นการทำลายสมดุลของห่วงโซ่อาหาร กล่าวคือ สมมติว่าไม่มีสัตว์กินพืช พืชบริเวณนั้นก็จะรกมากจนเกิดปัญหาอื่นๆ ตามมา หรือสัตว์ที่กินสัตว์กินพืช มีอาหารน้อยลงทำให้ฆ่ากันเอง หรืออดตายก็ได้&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ผมจึงคิดว่า เราเกิดมาเพื่อเป็นส่วนหนึ่งในการรักษาสมดุล จึงเป็นส่วนหนึ่งในวัฏจักรต่างๆ ที่คอยปรับสมดุลให้กับธรรมชาติ&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;มนุษย์นอกจากจะอยู่ในวัฏจักรแล้ว บางทีเราก็ใช้ประโยชน์จากมันซะเอง เช่น&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;การสร้างกระแสไฟฟ้า คือ การที่เรานำของสองส่ิงที่ประจุไฟฟ้าไม่เท่ากันมาเชื่อมต่อกันทำให้เกิดการถ่ายเทประจุไฟฟ้า เพื่อทั้งสองสิ่งมีประจุไฟฟ้าเท่ากัน&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;การซื้อ-ขายตราสารทุน หรือหุ้นตามวัฏจักรของเศรษฐกิจ&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;นอกจากเรื่องตัวเราเองแล้ว การรักษาสมดุลในสังคม ก็มีให้เห็นอยู่บ่อยๆ อยู่เช่นกัน ไม่ว่าจะเรื่อง&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;การถ่วงดุลอำนาจทางการเมือง&lt;/li&gt;
+&lt;li&gt;การปรับดอกเบี้ยของธนาคารกลางเพื่อรักษาให้เศรษฐกิจไปต่อได้&lt;/li&gt;
+&lt;li&gt;การรักษาความสัมพันธ์ คนหนึ่งแข็ง คนหนึ่งอ่อน&lt;/li&gt;
+&lt;li&gt;การรักษาสมดุลของอารมณ์ไม่ให้อารมณ๋์เสียมากเกินไป หรือดีใจมากเกินไป&lt;/li&gt;
+&lt;li&gt;การจัดการเวลาในการใช้ชีวิต การทำงาน การพักผ่อน การสังสรรค์ การมีสาระ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;และก็อีกเยอะแยะมากมาย&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;จงรักษาสมดุลในทุกๆ เรื่องให้ดี เราก็จะมีชีวิตอย่างเป็นสุข&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions]]></title><description><![CDATA[บทความที่แล้ว ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous…]]></description><link>https://ak1103dev.com/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</link><guid isPermaLink="false">https://ak1103dev.com/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/</guid><pubDate>Sun, 07 Nov 2021 12:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://ak1103dev.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/&quot;&gt;บทความที่แล้ว&lt;/a&gt; ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ&lt;/p&gt;
 &lt;p&gt;สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous Intregation) ฟรีของ GitHub&lt;/p&gt;
 &lt;p&gt;วิธีก็คือ เราจะสร้าง ไฟล์เอง หรือ จะเลือก template ใน tab Actions ใน repository ของ project ก็ได้&lt;/p&gt;
 &lt;p&gt;&lt;span
