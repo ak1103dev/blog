@@ -4,6 +4,8 @@ date: "2021-11-07T12:12:03.284Z"
 description: ""
 category: "Technology"
 tags: ["GitHub Pages", "GitHub Actions"]
+lang: th
+cover: image1.png
 ---
 
 [บทความที่แล้ว](https://ak1103dev.com/%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%20Blog%20%E0%B8%87%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%86%20%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%20Gatsby/) ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ

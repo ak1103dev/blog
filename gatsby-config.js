@@ -6,6 +6,7 @@ module.exports = {
       summary: 'who is learner, developer, blogger, and investor.'
     },
     description: `blog`,
+    image: '',
     siteUrl: `https://ak1103dev.com`,
     social: {
       twitter: `ak1103dev`,
