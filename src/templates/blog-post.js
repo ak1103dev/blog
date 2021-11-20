@@ -13,11 +13,21 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
   const tags = post?.frontmatter?.tags || []
 
+  let ogImage
+
+  try {
+    ogImage = post.frontmatter.cover.childImageSharp.ogimg.src
+  } catch (error) {
+    ogImage = null
+  }
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        lang={post.frontmatter.lang || 'th'}
+        image={ogImage}
       />
       <article
         className="blog-post"
@@ -96,6 +106,15 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
+        lang
+        cover {
+          childImageSharp {
+            gatsbyImageData(width: 1000, placeholder: BLURRED, aspectRatio: 1.66)
+            ogimg: resize(width: 1000) {
+              src
+            }
+          }
+        }
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

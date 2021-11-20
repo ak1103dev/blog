@@ -4,7 +4,11 @@ date: "2021-11-06T22:12:03.284Z"
 description: ""
 category: "Technology"
 tags: ["React.js", "Gatsby.js"]
+cover: gatsby.png
+lang: th
 ---
+
+![](gatsby.png)
 
 หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น
 
