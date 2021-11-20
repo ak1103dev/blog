@@ -2,4 +2,4 @@
     "componentChunkName": "component---src-templates-tag-js",
     "path": "/tag/git-hub-pages",
     "result": {"data":{"allMarkdownRemark":{"nodes":[{"excerpt":"บทความที่แล้ว ผมสร้าง blog ด้วย Gatsyby ไว้แล้วนะครับ สิ่งที่ผมจะทำต่อ คือ ทำ automate deployment โดยใช้ GitHub Actions เป็น CI (Continuous…","fields":{"slug":"/deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions/"},"frontmatter":{"date":"November 07, 2021","title":"Deploy blog ขึ้น GitHub Pages ด้วย GitHub Actions","description":"","tags":["GitHub Pages","GitHub Actions"]}}]}},"pageContext":{"tag":"GitHub Pages","basePath":"","paginationPath":"/tag/git-hub-pages","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
-    "staticQueryHashes": ["2841359383","3257411868"]}
+    "staticQueryHashes": ["3257411868","3889472447"]}

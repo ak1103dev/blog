@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Nov 2021 13:18:35 GMT</lastBuildDate><item><title><![CDATA[ความหมายของชีวิต]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/ความหมายของชีวิต/</link><guid isPermaLink="false">https://ak1103dev.com/ความหมายของชีวิต/</guid><pubDate>Sun, 14 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ผมว่า หลายๆ คน คงค้นหาความหมายของชีวิต หรือการมีชีวิตอยู่ ผมก็เป็นคนหนึ่งที่เคยตั้งคำถามแบบนี้เหมือนกัน แต่คำตอบยังไม่โดนใจเท่าไร ผมคิดว่าคำถามพวกนี้ จริงๆ ก็มีคนหาคำตอบมาบ้างแล้ว จึงเกิดลัทธิ และศาสนาต่างๆ แต่ที่เห็นสิ่งหนึ่งที่เป็นจุดร่วมกันของ หลายๆ แนวคิด นั่นคือหลักสมดุล&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Nov 2021 11:22:14 GMT</lastBuildDate><item><title><![CDATA[ความหมายของชีวิต]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/ความหมายของชีวิต/</link><guid isPermaLink="false">https://ak1103dev.com/ความหมายของชีวิต/</guid><pubDate>Sun, 14 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ผมว่า หลายๆ คน คงค้นหาความหมายของชีวิต หรือการมีชีวิตอยู่ ผมก็เป็นคนหนึ่งที่เคยตั้งคำถามแบบนี้เหมือนกัน แต่คำตอบยังไม่โดนใจเท่าไร ผมคิดว่าคำถามพวกนี้ จริงๆ ก็มีคนหาคำตอบมาบ้างแล้ว จึงเกิดลัทธิ และศาสนาต่างๆ แต่ที่เห็นสิ่งหนึ่งที่เป็นจุดร่วมกันของ หลายๆ แนวคิด นั่นคือหลักสมดุล&lt;/p&gt;
 &lt;p&gt;ในทางศาสนาพุทธ มีสิ่งหนึ่งที่เรียกว่า มัชฌิมาปฏิปทา หรือ ทางสายกลาง หมายถึง การไม่ยึดถือสุดทางเกินไป
 หรือในลัทธิเต๋า ก็มีหยินหยางที่แสดงความสมดุล
 หรือในทางวิทยาศาสตร์ก็มีเรื่องสมดุลต่างๆ เช่น สมดุลของแรง สมดุลทางไฟฟ้า สมดุลการหมุน&lt;/p&gt;
@@ -339,7 +339,37 @@
 &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/checkout&quot;&gt;https://github.com/marketplace/actions/checkout&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/setup-node-js-environment&quot;&gt;https://github.com/marketplace/actions/setup-node-js-environment&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/marketplace/actions/github-pages-action&quot;&gt;https://github.com/marketplace/actions/github-pages-action&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[สร้าง Blog ง่ายๆ ด้วย Gatsby]]></title><description><![CDATA[หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…]]></description><link>https://ak1103dev.com/สร้าง Blog ง่ายๆ ด้วย Gatsby/</link><guid isPermaLink="false">https://ak1103dev.com/สร้าง Blog ง่ายๆ ด้วย Gatsby/</guid><pubDate>Sat, 06 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[สร้าง Blog ง่ายๆ ด้วย Gatsby]]></title><description><![CDATA[หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host…]]></description><link>https://ak1103dev.com/สร้าง Blog ง่ายๆ ด้วย Gatsby/</link><guid isPermaLink="false">https://ak1103dev.com/สร้าง Blog ง่ายๆ ด้วย Gatsby/</guid><pubDate>Sat, 06 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 538px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b48f2eeca5b70960f467a0801bd9ca07/9516f/gatsby.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.0379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABLUlEQVQoz4VSwUqEUBT121q27Atc+AOhtGqRUBjORxTjQBOI0CLQRUgJ6kJaGBlkMMQU0WKISgcU3zvxnJ69xKkDl/c4977Lue9ciVIKFgyUUJCGtNFxYv4PjkNal+g/JIR0wXnxzuslrozhdf6Oi5MbXPuzjuPN/gNv2ilcflawDq6wsznB9sYx/NNbVgZrbMHzPBRFgTzPkaYpsiyDbduo6xplWaKqqh+F5FvJy+wNEyOAqZxhd2sKf3qH+dMjRuYIhnEIRVGgaRpUVW1PWZah6zpM0+wmaBuKfxCd32O8f4mjPR/PD4sVF0YIggBJkiCO41ZlGIaIogiO48B13bauaZrVyH33WKOPxXKtUSLYqH3n17rMTRHdFYMr6r+VQH8rZH86tG9Djg7t4xeWPaOAsfHr1wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby&quot;
+        title=&quot;gatsby&quot;
+        src=&quot;/static/b48f2eeca5b70960f467a0801bd9ca07/9516f/gatsby.png&quot;
+        srcset=&quot;/static/b48f2eeca5b70960f467a0801bd9ca07/c26ae/gatsby.png 158w,
+/static/b48f2eeca5b70960f467a0801bd9ca07/6bdcf/gatsby.png 315w,
+/static/b48f2eeca5b70960f467a0801bd9ca07/9516f/gatsby.png 538w&quot;
+        sizes=&quot;(max-width: 538px) 100vw, 538px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;หลายๆ คนอยากทำ Blog เองมันก็มีอยู่หลายวิธีอยู่ เช่น ใช้ CMS อย่าง wordpress, wix.com เป็นต้น&lt;/p&gt;
 &lt;p&gt;แต่ผมไม่ใช้ CMS เพราะต้องเสียค่า host เพิ่มเท่านั้นแหละ&lt;/p&gt;
 &lt;p&gt;เลยว่าจะทำเป็น static html เอง แล้วเอาขึ้น github pages เพราะมันฟรี&lt;/p&gt;
 &lt;p&gt;ต่อมาก็มาเลือกว่า จะใช้ อะไรดีในการทำ static html ก็ไปหาดูใน google&lt;/p&gt;
