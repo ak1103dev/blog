@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Nov 2021 11:23:04 GMT</lastBuildDate><item><title><![CDATA[ความหมายของชีวิต]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/ความหมายของชีวิต/</link><guid isPermaLink="false">https://ak1103dev.com/ความหมายของชีวิต/</guid><pubDate>Sun, 14 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ผมว่า หลายๆ คน คงค้นหาความหมายของชีวิต หรือการมีชีวิตอยู่ ผมก็เป็นคนหนึ่งที่เคยตั้งคำถามแบบนี้เหมือนกัน แต่คำตอบยังไม่โดนใจเท่าไร ผมคิดว่าคำถามพวกนี้ จริงๆ ก็มีคนหาคำตอบมาบ้างแล้ว จึงเกิดลัทธิ และศาสนาต่างๆ แต่ที่เห็นสิ่งหนึ่งที่เป็นจุดร่วมกันของ หลายๆ แนวคิด นั่นคือหลักสมดุล&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[blog]]></description><link>https://ak1103dev.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 21 Nov 2021 08:07:13 GMT</lastBuildDate><item><title><![CDATA[จะเริ่มเขียนโปรแกรมสักอันหนึ่ง จะเริ่มยังไงดี]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/จะเริ่มเขียนโปรแกรมสักอันหนึ่ง จะเริ่มยังไงดี/</link><guid isPermaLink="false">https://ak1103dev.com/จะเริ่มเขียนโปรแกรมสักอันหนึ่ง จะเริ่มยังไงดี/</guid><pubDate>Sun, 21 Nov 2021 12:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ยุคนี้เป็นยุคดิจิตอล เจอของที่เป็นเทคโนโลยีเต็มไปหมด ซึ่งหลายๆ อุปกรณ์ก็ถูกควบคุมด้วยซอฟต์แวร์หรือโปรแกรมต่างๆ ทำให้ควบคุมอุปกรณ์ต่างๆ ได้ง่ายขึ้น&lt;/p&gt;
+&lt;p&gt;ทำให้คนจำนวนหนึ่งสนใจที่จะเขียนโปรแกรม หรือในงานประจำที่ทำอยู่มีบางส่วนที่ต้องเขียนโปรแกรมเพื่อช่วยทำให้งานง่ายขึ้น หรือต้องไปคุยกับแผนก IT ให้เขาช่วยทำให้&lt;/p&gt;
+&lt;p&gt;ก็เห็นตามกลุ่ม facebook หรือมีคนรู้จักทักผมมาส่วนตัว ปรึกษาเรื่องการเขียนโปรแกรมอยู่บ้าง&lt;/p&gt;
+&lt;h3&gt;การเขียนโปรแกรม คือ ?&lt;/h3&gt;
+&lt;p&gt;การเขียนโปรแกรม คือ การเขียนลำดับขั้นตอนการทำงาน ถ้าเราทำซอฟต์แวร์ ก็คือการเขียนลำดับการทำงานให้กับคอมพิวเตอร์ หรืออุปกรณ์อื่นๆ ที่เราต้องการนั่นเอง หลักการคิดคือการคิดเป็นลำดับขั้นตอนว่า อะไรทำก่อน อะไรทำทีหลัง อะไรทำพร้อมกันได้บ้าง&lt;/p&gt;
+&lt;h3&gt;ตั้งโจทย์&lt;/h3&gt;
+&lt;p&gt;ขั้นแรก เริ่มจากคิดว่าเราจะทำอะไร ต้องตั้งโจทย์กันก่อนว่าจะเขียนโปรแกรมอะไร เช่น ทำเกม ทำเว็บไซต์ ทำแอปพลิเคชั่น หรือแค่เขียนเป็นฟังก์ชันรับค่าธรรมดา ทำในรูปแบบไหน ออกแบบการใช้งานกันก่อน เอาแบบ minimal ก่อน&lt;/p&gt;
+&lt;p&gt;ตัวอย่าง โปรแกรมหาค่า 1 + 2 + 3 + … + n ได้ค่าเท่าไร ทำในรูปแบบเว็บไซต์ กรอก input ค่า n เข้าไป แล้ว แสดงผลลัพธ์ ออกมาในอีกบรรทัดหนึ่ง&lt;/p&gt;
+&lt;h3&gt;ออกแบบ&lt;/h3&gt;
+&lt;p&gt;ขั้นที่สอง เราจะออกแบบ user interface หรือหน้าดาโปรแกรมที่เราจะใช้งาน (ถ้ามี ในกรณีที่ทำโปรแกรมที่มี interface) และ ออกแบบฟังก์ชันการทำงานของตัวโปรแกรม&lt;/p&gt;
+&lt;p&gt;ตัวอย่าง โปรแกรมหาค่า 1 + 2 + 3 + … + n เราออกแบบหน้าตาเป็นแบบนี้
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 561px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e6a13fb93c8ccaaff47c40ebd6691b07/410f3/ui.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.75949367088608%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVQoz62Tyw6EMAhF+/9/6cKNmrjwbVUmh+SajqnzypAQKtDLLWBY19XGcbRpmtz+otwdhsHACjiWZbF9323btifFdxyH21w8zQMDrAA6jpyQRGUs1VUgJ8TAcoZUQZSsql3XWVmW1jSN1XVtbdu6D3BypbpzMrwC9n1vVVV5xRij+zkDxDdxvSoFdIY5wDQJVjBEOcMCYOW9BUx7BAt6qCfnmH3EUA2W1VrALu1dlmFuKASKojifpomnrF4O5W5tvpFzbbRn18VlmneLfLfYYAUd/vHrzfNsD+BtrseNBKNZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ui&quot;
+        title=&quot;ui&quot;
+        src=&quot;/static/e6a13fb93c8ccaaff47c40ebd6691b07/410f3/ui.png&quot;
+        srcset=&quot;/static/e6a13fb93c8ccaaff47c40ebd6691b07/c26ae/ui.png 158w,
+/static/e6a13fb93c8ccaaff47c40ebd6691b07/6bdcf/ui.png 315w,
+/static/e6a13fb93c8ccaaff47c40ebd6691b07/410f3/ui.png 561w&quot;
+        sizes=&quot;(max-width: 561px) 100vw, 561px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;และออกแบบฟังก์ขันการทำงานแบบนี้ (ในช่วงที่ยังไม่ชำนาญอยากให้ลองเขียนเป็น &lt;a href=&quot;https://blog.nextzy.me/flowchart-101-f3ef25c3a92a&quot;&gt;flowchart&lt;/a&gt; กันดูก่อนนะครับ)
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 458px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 192.40506329113924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAmCAYAAADEO7urAAAACXBIWXMAAAsTAAALEwEAmpwYAAACcElEQVRIx52W2cpqMQyF9/u/lXipt4IIXijO8zxrD19gSU7/FnYthEbbvZqsDG0VQgifz8eEcbvdwvF4NDkcDjafTqfvuubcqPwm5v1+b/p8Pg/dbtd0QJ/PZxmgNl6v16+F2+3WrMPS9/tdH1DDb0YHKLde22XG/X43y2azWXi9XqYXW6iNAPT7/bBcLsNisQjD4dDm4qBo4/l8NjBmXAZMgSpy2acNgblcLgbE77rWJQHFFWlC6kj/2eXdbhem06lxN5lMwnq9/gbnp8Qmor1eLzSbzdBut0On0zFLi6LsLQQQIShwiI7VRRamkvrxeFi0U3laZKGaAQJ/RJkS/JlDXCUIjUYjtFotS3IOKQbURpJ5tVpZhEejURiPx2ZpbUCBSfiQiFLPVAkDPuN93it/SJU6hUSmUuBOYKmR+r+SVfBEmpBzJDXJjduDwcBchwr4ZS8Hegr+sxDXsGSz2Vi+McMhOoKOcJhAEfal0skAaQYa8Eeq6EPW1f79yN0zBghf8QLActW75isqyaEH1J2CZXwAn8zwG9cyB6VS6Y+FqmPxyRr/xbceZcmeODBZQMDUuZEYsBaHDHQAcB23NMcuQ0MSkMSNg6Juo0pJVUUWME4b/wwBUO7HAcgCwo1c08f+BSEaYg4FGEul2sVFBECAVYqAeQu9J9lu4wfkA8whXnTFcgA0UevounbVM6tUS0oNDoIahPxjxgN0gAHkoD93Sq7vyRKqh6ZLwJgRmgs0ZfthqufJLYD1mELQAeP/WoAeFLfhSXePIu2TvpaF8UMAzrjIVJq+MIoAib7ShdamV5l/nRW5LAtVTRJVGoD/ALZuqNTKvIsqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;flowchart&quot;
+        title=&quot;flowchart&quot;
+        src=&quot;/static/3de73a7e89f1633cfb55477423f5f64c/f7a31/flowchart.png&quot;
+        srcset=&quot;/static/3de73a7e89f1633cfb55477423f5f64c/c26ae/flowchart.png 158w,
+/static/3de73a7e89f1633cfb55477423f5f64c/6bdcf/flowchart.png 315w,
+/static/3de73a7e89f1633cfb55477423f5f64c/f7a31/flowchart.png 458w&quot;
+        sizes=&quot;(max-width: 458px) 100vw, 458px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;หาเครื่องมือ&lt;/h3&gt;
+&lt;p&gt;ขั้นที่สาม จากโจทย์เราทำโปรแกรมในรูปแบบไหน เช่น ทำเว็บไซต์ ต้องเขียน html, css, javascript หรือเขียนเกมใช้ unity ลอง search หาดูใน google ใน youtube หรือถามผู้รู้ดู พยายามหาที่มีตัวอย่างการใช้งาน จะได้เข้าใจง่ายขึ้น&lt;/p&gt;
+&lt;p&gt;ตัวอย่าง โปรแกรมหาค่า 1 + 2 + 3 + … + n เราจะทำเป็นเว็บไซต์ วิธีทั่วไปที่คนส่วนใหญ่ทำจะเป็น html, css, javascript
+พอเราไปศึกษาการทำเว็บด้วย html, css, javascript แล้วก็จะรู้ว่า&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;html ไว้สร้างโครงหลักของเว็บ ใส่ส่วนประกอบต่างๆ เช่น input, button&lt;/li&gt;
+&lt;li&gt;css ไว้จัดตำแหน่ง สี ความสวยงาม&lt;/li&gt;
+&lt;li&gt;javascript ไว้เขียนฟังก์ชันการทำงาน&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;แล้วก็มาดูวิธีการเขียนโดยทั่วๆ ไปเพื่อให้เห็นภาพรวมว่า html, css, javascript เวลาเขียนแยกกันเป็นยังไง เวลาเอามาเขียนร่วมกันเป็นยังไง&lt;/p&gt;
+&lt;h3&gt;เขียนโปรแกรม&lt;/h3&gt;
+&lt;p&gt;ขั้นที่สี่ มาเขียนโปรแกรมกัน มันก็จะมีสองส่วนตามที่เราออกแบบนั่นแหละ ก็คือ ส่วนของ user interface หรือหน้าตา กับส่วนของฟังก์ชันการทำงาน&lt;/p&gt;
+&lt;p&gt;ส่วนของ user interface มักใช้ภาษาประเภท markup เช่น html, xml&lt;/p&gt;
+&lt;p&gt;ส่วนของฟังก์ชันการทำงาน มักจะใช้ภาษาประเภท script เช่น c, c++, c# python, java, javascript, go&lt;/p&gt;
+&lt;p&gt;ตัวอย่าง เราเขียนโปรแกรมตามที่ออกแบบไว้ตอนแรก (code ต่อไปนี้ยังไม่ได้ run ทดสอบนะครับ)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;Title&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;title&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;คำนวณ 1 + 2 + 3 + ... + n&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;n:&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+      &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value javascript language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;คำนวณ&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;result&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;ผลลัพธ์:&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;onClick&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; e&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;target&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    sum &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; sum &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; i
+    i &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  document&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;result&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;innerHTML &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ผลลัพธ์: &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; sum
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;ทดสอบ&lt;/h3&gt;
+&lt;p&gt;ขั้นสุดท้าย เมื่อเขียนโปรแกรมเสร็จแล้ว เราต้องทดสอบอีกทีว่าโปรแกรมทำงานถูกต้องหรือไม่&lt;/p&gt;
+&lt;p&gt;ตัวอย่าง โปรแกรมหาค่า 1 + 2 + 3 + … + n
+ลองกรอกค่า input เป็น 3 แล้วเราคาดหวังว่า ผลลัพธ์จะออกมาเป็น 6 (1+2+3 = 6)
+ลองกรอกค่า input เป็น 5 แล้วเราคาดหวังว่า ผลลัพธ์จะออกมาเป็น 15 (1+2+3+4+5 = 15)&lt;/p&gt;
+&lt;p&gt;ลองหลายๆ ค่าหน่อย ว่าผลลัพธ์เป็นตามที่คาดหวังหรือไม่ ถ้าไม่ตรงก็ต้องมีการแก้ไขให้มันทำงานถูกต้อง&lt;/p&gt;
+&lt;p&gt;ส่วนหน้าตา ถ้ายังไม่ตรงกับที่ออกแบบก็ปรับ code ในส่วนของ html จัดให้ตรงตามต้องการ&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ขั้นตอนการเขียนโปรแกรมคร่าวๆ ก็ประมาณนี้ครับ สำหรับผู้เริ่มต้น&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ขอให้สนุกกับการเขียนโปรแกรมนะครับ&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[ความหมายของชีวิต]]></title><description><![CDATA[…]]></description><link>https://ak1103dev.com/ความหมายของชีวิต/</link><guid isPermaLink="false">https://ak1103dev.com/ความหมายของชีวิต/</guid><pubDate>Sun, 14 Nov 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;ผมว่า หลายๆ คน คงค้นหาความหมายของชีวิต หรือการมีชีวิตอยู่ ผมก็เป็นคนหนึ่งที่เคยตั้งคำถามแบบนี้เหมือนกัน แต่คำตอบยังไม่โดนใจเท่าไร ผมคิดว่าคำถามพวกนี้ จริงๆ ก็มีคนหาคำตอบมาบ้างแล้ว จึงเกิดลัทธิ และศาสนาต่างๆ แต่ที่เห็นสิ่งหนึ่งที่เป็นจุดร่วมกันของ หลายๆ แนวคิด นั่นคือหลักสมดุล&lt;/p&gt;
 &lt;p&gt;ในทางศาสนาพุทธ มีสิ่งหนึ่งที่เรียกว่า มัชฌิมาปฏิปทา หรือ ทางสายกลาง หมายถึง การไม่ยึดถือสุดทางเกินไป
 หรือในลัทธิเต๋า ก็มีหยินหยางที่แสดงความสมดุล
 หรือในทางวิทยาศาสตร์ก็มีเรื่องสมดุลต่างๆ เช่น สมดุลของแรง สมดุลทางไฟฟ้า สมดุลการหมุน&lt;/p&gt;

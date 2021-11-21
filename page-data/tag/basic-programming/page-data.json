@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tag-js",
+    "path": "/tag/basic-programming",
+    "result": {"data":{"allMarkdownRemark":{"nodes":[{"excerpt":"…","fields":{"slug":"/จะเริ่มเขียนโปรแกรมสักอันหนึ่ง จะเริ่มยังไงดี/"},"frontmatter":{"date":"November 21, 2021","title":"จะเริ่มเขียนโปรแกรมสักอันหนึ่ง จะเริ่มยังไงดี","description":"ยุคนี้เป็นยุคดิจิตอล เจอของที่เป็นเทคโนโลยีเต็มไปหมด ซึ่งหลายๆ อุปกรณ์ก็ถูกควบคุมด้วยซอฟต์แวร์หรือโปรแกรมต่างๆ ทำให้ควบคุมอุปกรณ์ต่างๆ ได้ง่ายขึ้น","tags":["Basic Programming","programming 101"]}}]}},"pageContext":{"tag":"Basic Programming","basePath":"","paginationPath":"/tag/basic-programming","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "staticQueryHashes": ["3257411868","3889472447"]}
